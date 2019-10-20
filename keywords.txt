@@ -1,0 +1,51 @@
+#######################################
+# Syntax Coloring Map NeoPixelBus
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Scaleworx_RGBColor KEYWORD1
+
+Scaleworx_LEDManager KEYWORD1
+Scaleworx_NeopixelManager KEYWORD1
+Scaleworx_DotstarManager KEYWORD1
+
+Scaleworx_LEDGroup KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# LEDManager
+firstRange  KEYWORD2
+showAll  KEYWORD2
+setupAll  KEYWORD2
+addGroup  KEYWORD2
+singleGroup  KEYWORD2
+setup  KEYWORD2
+
+# LEDGroup
+setPixMap	KEYWORD2
+setXY  KEYWORD2
+setColumn  KEYWORD2
+setRow  KEYWORD2
+set  KEYWORD2
+fill  KEYWORD2
+off  KEYWORD2
+chase  KEYWORD2
+setRandom  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+map8x8TopLeftRightward LITERAL1
+map8x8BottomLeftRightward LITERAL1
+map8x8TopRightLeftward LITERAL1
+map8x8BottomRightLeftward LITERAL1
+map8x8TopLeftDownward LITERAL1
+map8x8BottomLeftUpward LITERAL1
+map8x8TopRightDownward LITERAL1
+map8x8BottomRightUpward LITERAL1

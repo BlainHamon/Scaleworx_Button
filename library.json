@@ -1,0 +1,15 @@
+{
+  "name": "Scaleworx Button",
+  "keywords": "Button, finite state machine",
+  "description": "A useful button library for choosing multiple values with one button",
+  "homepage": "https://github.com/BlainHamon/Scaleworx_Button",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/BlainHamon/Scaleworx_Button"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
+
