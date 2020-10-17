@@ -4,11 +4,11 @@
 #define LONGPRESSTIME	1000
 #define CLICKTIMEOUT	500
 
-Button::Button (uint8_t newPin) :
+Button::Button (uint8_t newPin, uint8_t startValue) :
     lastDown(0), lastUp(0), pin(newPin),
-    state(ButtonStateIdle), value(0),
+    state(ButtonStateIdle), value(startValue),
     numberOfPresses(0), isPressed(false),
-    valueChanged(0) 
+    valueChanged(0)
 {
 	pinMode(pin, INPUT_PULLUP);
 };
@@ -16,7 +16,7 @@ Button::Button (uint8_t newPin) :
 void Button::checkState() {
     isPressed = !digitalRead(pin);
 	uint32_t time = millis();
-	
+
 	if (isPressed) {
 		lastDown = time;
 	} else {

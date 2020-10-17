@@ -1,6 +1,6 @@
 //
 //  Scaleworx_Button.h
-//  
+//
 //
 //  Created by Blain Hamon on 10/19/19.
 //
@@ -25,7 +25,7 @@ protected:
     uint8_t isPressed;
     uint8_t valueChanged;
 public:
-	Button (uint8_t newPin);
+	Button (uint8_t newPin, uint8_t startValue = 0);
     uint8_t getHasValueChanged() {
         uint8_t result = valueChanged;
         valueChanged = 0;
